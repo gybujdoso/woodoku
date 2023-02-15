@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('bodybg.jpeg') no-repeat center center;
+    background-size: cover;
+    height: 100%;
+    padding-bottom: 500px;
+}
+
+#header{
+    background: url('header.png') no-repeat center center;
+    height: 240px;
+    width: 100%;
+    margin: 100px 0;
+}
+
+#palya{
+    display: flex;
+    flex-wrap: wrap;
+    background: url('bg.webp');
+    margin: 0 auto;
+}
+
+.sor{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.cella{
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: url('fa.webp');
+    font-size: 5rem;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+.ures{
+    background: none;
+}
+
+@keyframes bal{
+    0% {left:0}
+    100% {left:-200px}
+}
+
+.bal{
+    animation-name: bal;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes jobb{
+    0% {left:0}
+    100% {left: 200px}
+}
+
+.jobb{
+    animation-name: jobb;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fel{
+    0% {top:0}
+    100% {top:-200px}
+}
+
+.fel{
+    animation-name: fel;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
+@keyframes le{
+    0% {top:0}
+    100% {top:200px}
+}
+
+.le{
+    animation-name: le;
+    animation-duration: .2s;
+    animation-fill-mode: forwards;
+}
